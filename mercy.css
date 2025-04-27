@@ -1,0 +1,9 @@
+@media screen {
+    
+}
+body div{
+    font-size: 40px;
+    background-color: rgb(201, 201, 214);
+    margin: 0 auto;
+    width: 50%;
+}
