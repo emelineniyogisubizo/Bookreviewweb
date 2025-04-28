@@ -71,6 +71,7 @@
     overflow: hidden;
     cursor: pointer;
 }
+
 .trevornoah > .trevor{
     
      object-fit: cover;
@@ -157,6 +158,20 @@
 
 }
 .personalwork:is(:hover,:focus) > a{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.trevornoah > a{
+    opacity: 0;
+    color: white;
+    transition: opacity 400ms,transform 400ms;
+    top: 10cm;
+    left: 7cm;
+    position: absolute;
+    z-index: 2;
+}
+
+.trevornoah:is(:hover,:focus) > a{
     transform: scale(1.2);
     opacity: 1;
 }

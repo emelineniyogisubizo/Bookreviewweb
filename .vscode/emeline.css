@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.firstdivcont{
+    background-color: rgb(250, 240, 182); 
+
+   
+}
+.navbar{
+    margin-left: 35cm;
+    
+}
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(248, 115, 20);
+    z-index: 2;
+    margin-left: 1cm;
+    font-size: 25px;
+    top: 1cm;
+   
+}
+.bookandtittle{
+    display: flex;
+    gap: 4cm;
+    margin-left: 5cm;
+    padding: 80px; 
+    text-align: center; 
+}
+#book{
+    border-radius: 1cm;
+    
+}
+h1{
+    font-size: 70px;
+    color: rgb(248, 115, 20);
+   
+}
+h5{
+    margin-top: 3cm;
+    font-size: 25px;
+
+}
+.seconddiv{
+    background-color: rgb(3, 3, 37);
+    display: flex;
+    gap: 10cm;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+
+}
+h4{
+    margin-left: 7cm;
+    color: rgb(248, 115, 20);
+    font-size: 70px;
+
+
+}
+h7{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.7cm;
+    
+}
+.images{
+    padding-top: 3cm;
+    padding: 2.5cm;
+    background-color: rgb(250, 240, 182);
+}
+.image{
+    width: 350px;
+    height: 500px;
+    border-radius: 0.5cm;
+    
+}
+.momandbaby{
+    width: 350px;
+    height: 500px;
+    margin-left: 2cm;
+    border-radius: 0.5cm;
+}
+.mom{
+    width: 350px;
+    height: 500px;
+    margin-left: 2cm;
+    border-radius: 0.5cm;
+}
+.trevorstand{
+    width: 350px;
+    height: 500px;
+    margin-left: 2cm;
+    border-radius: 0.5cm;
+}
+.thequote{
+    display:flex;
+    gap: 8.7cm;
+    padding-top: 3cm;
+    padding-bottom: 1cm;
+    background-color: rgb(3, 3, 37);
+    
+}
+h6{
+    margin-top: 2cm;
+    margin-left: 7cm;
+    font-size: 20px;
+    color: rgb(248, 115, 20);
+    font-weight: 100;
+}
+.abouttrevor{
+    display: flex;
+    background-color: rgb(250, 240, 182);
+    gap: 4cm;
+    padding-bottom: 2cm;
+}  
+.trevorinsuite{
+    margin-top: 3cm;
+    margin-left: 7cm;
+    width: 500px;
+    border-radius: 0.5cm;
+}
+.abouttrevor h7{
+    margin-top: 4.5cm;
+    color: rgb(248, 115, 20);
+}
