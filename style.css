@@ -1,0 +1,230 @@
+body{
+    margin: 10%;
+    background-image: url("images/BACKGROUND.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+.theweb{
+    background-color: bisque;
+    filter: brightness rgba(0, 0, 0, 0.9);
+    padding: 5%;
+
+}
+
+
+.homebar{
+    background-color: black;
+    position: fixed;
+    bottom: 10%;
+    width: 27%;
+    border-radius: 20px;
+    margin-left: 200px;   
+  
+  }
+
+.homebar a{
+    float: left; 
+    margin: 0 5px;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.homebar a:hover{
+    background-color:grey ;
+    color: white;
+    border-radius: 20px;
+ 
+
+}
+
+.logo{
+    display: flex;
+    gap: 200px;
+    
+}
+
+.logo h2{
+    font-size: 15px;
+    font-style: italic;
+} 
+
+.logo img{
+    width: 5%;
+    border-radius: 20px;
+ 
+}
+
+.thebook{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    gap: 90px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.thebook img{
+    width: 20%;
+    border-radius: 40px;
+    padding: 2%;
+
+}
+
+.thebook h1{
+    color: lightgrey;
+    padding-top: 2%;
+    font-size: 40px;
+}
+
+.thebook p{
+    color:  lightgrey;
+    font-size: 16px;
+
+}
+
+.authorandemail{
+    background-image: url("images/AUTHOR1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 90px;
+    margin-top: 15%;
+    padding: 30px;
+    
+
+    
+}
+
+.authorinfo img{
+    width: 20vw;
+    height: 60vh;
+    border-radius: 100px;
+
+}
+
+.authorinfo{
+    display: flex;
+    gap: 20px;
+    border:solid;
+    border-color: antiquewhite;
+    padding: 20px;
+    border-radius: 16px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    font-size: 13px;
+}
+.authorinfo h3{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.authorinfo p{
+    color: antiquewhite;
+    
+}
+
+.authorinfo a{
+    color: rgba(231, 235, 11, 0.5);
+}
+
+.email{
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+    padding: 5px;
+    justify-items: center;
+    color: antiquewhite;
+    font-size: 12px;
+    border-radius: 4px;
+
+}
+
+.email input{
+    padding: 5px;
+    
+
+}.email button{
+    padding: 5px;
+    width:8.9vw;
+
+}
+
+.authorinfo a:hover{
+    color: yellow;
+}
+
+.reviews q{
+    display:inline
+}
+
+.reviews q:before{
+    content: open-quote;
+    color: balck;
+    
+}
+
+.reviews q:after{
+    content: close-quote;
+    color: black;
+}
+
+.reviews{
+    display: flex;
+    margin-top: 10%;
+    gap: 50px;
+}
+
+.review{
+    background-color: darkgrey;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+
+.blogpart{
+    display: flex;
+    gap:150px;
+    padding: 60px 60px 0px 1px;
+
+}
+
+.book1 img{
+    width: 13vw;
+    padding: 40px;
+    
+}
+
+.theblog h2{
+   position: absolute;
+   padding-left: 25vw;
+   top: 37cm;
+   font-size: 28px;
+}
+
+
+.book2 img{
+    width: 13vw;
+    padding: 40px;
+    
+}
+
+
+.book3 img{
+    width: 13vw;
+    padding: 40px ;
+    height: 40vh
+    
+}
+
+.book4 img{
+    width: 13vw;
+    padding: 40px;
+    
+}

@@ -1,0 +1,221 @@
+body{
+    margin: 7%;
+    background-color: black;
+}
+
+.bigbody{
+    background-color: cornflowerblue;
+   
+}
+
+.smallbody{
+    background-color: aliceblue;
+    margin: 3%;
+    
+}
+
+.homebar{
+    background-color: black;
+    position: fixed;
+    bottom: 10%;
+    width: 27%;
+    border-radius: 20px;
+    margin-left: 200px;   
+  
+  }
+
+.homebar a{
+    float: left; 
+    margin: 5px 5px;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.homebar a:hover{
+    background-color:grey ;
+    color: white;
+    border-radius: 20px;
+ 
+
+}
+
+.topnav {
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    padding: 5px;
+}
+  
+ 
+.topnav a {
+    float: left;
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+.dropdown .dropbtn {
+    font-size: 10px;
+    border: none;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 15px 0px 0px 0px; 
+    padding: 5px;
+    
+  }
+  
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(71, 146, 146);
+    border-radius: 10px;
+  }
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5eb8db;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    z-index: 1;
+  }
+  
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.description{
+    display: flex;
+   
+}
+
+.about{
+  margin-left: 4%;
+  background-color: whitesmoke;
+  padding: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+.about h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+    
+}
+
+.about p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.booksection img{
+    width: 40%;
+    transform: rotate(90deg);
+    margin-left: 30%;   
+
+}
+
+.booksection{
+  background-color: cornflowerblue;
+  padding: 50px 10px 0px 0px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+  margin-right: 3%;
+
+}
+
+.quotes{
+  display: flex;
+  gap: 30px;
+  margin: 50px 50px 50px 30px;
+  margin-top: 170px;
+  
+}
+
+.quotes img{
+  width: 23vw;
+  border-radius: 10px;
+}
+
+.issues{
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+  margin-top: 100px;
+  justify-items: center;
+  text-align: center;
+
+}
+
+
+.issue{
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  word-spacing: 3px;
+  text-align: justify;
+  
+}
+
+.blogpart{
+  display: flex;
+  gap:150px;
+  padding: 60px 60px 0px 1px;
+
+}
+
+.book1 img{
+  width: 13vw;
+  padding: 40px;
+  
+}
+
+
+.book2 img{
+  width: 13vw;
+  padding: 40px;
+  
+}
+
+
+.book3 img{
+  width: 13vw;
+  padding: 40px ;
+  height: 40vh
+  
+}
+
+.book4 img{
+  width: 13vw;
+  padding: 40px;
+  
+}
