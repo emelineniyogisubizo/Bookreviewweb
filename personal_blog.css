@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .intro{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/trevor-image1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images-fiona/trevor-image1.jpg);
     width: 100%;
     background-repeat: no-repeat;
     height: 440vh;
