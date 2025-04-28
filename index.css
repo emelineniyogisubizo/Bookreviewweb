@@ -175,6 +175,12 @@
     transform: scale(1.2);
     opacity: 1;
 }
+.handmaidtale a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .nav{
     position: absolute;
     border: solid 1px white;
